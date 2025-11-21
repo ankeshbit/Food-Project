@@ -2,9 +2,6 @@
 
 Omnifood is a modern, responsive, "one-page" landing page website designed for a fictional AI-powered food delivery service. The project focuses on clean UI/UX, healthy food imagery, and smooth user interactions.
 
-![Project Status](https://img.shields.io/badge/status-active-success.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## 📸 Preview
 
 > *Tip: Replace this text with a screenshot of your website header once you finish it!*
@@ -24,16 +21,3 @@ Omnifood is a modern, responsive, "one-page" landing page website designed for a
 * **JavaScript (ES6):** Intersection Observer API for the sticky navigation effect.
 * **Ionicons:** Scalable vector icons.
 * **Google Fonts:** Typography integration.
-
-## 📂 Project Structure
-
-```text
-Omnifood/
-├── index.html          # Main HTML file
-├── README.md           # Project documentation
-├── Resources/
-│   ├── css/
-│   │   └── style.css   # Main stylesheet
-│   ├── img/            # Images for food, cities, and logos
-│   └── js/             # (Optional folder for external scripts)
-└── Vendors/            # (Optional folder for external libraries)
