@@ -20,4 +20,4 @@ Omnifood is a modern, responsive, "one-page" landing page website designed for a
 * **CSS3:** Custom styling, CSS Variables, Flexbox, Gradients, and Transitions.
 * **JavaScript (ES6):** Intersection Observer API for the sticky navigation effect.
 * **Ionicons:** Scalable vector icons.
-* **Google Fonts:** Typography integration.
+* **Google Fonts:** Typography integration .
