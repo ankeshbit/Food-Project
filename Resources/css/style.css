@@ -142,8 +142,6 @@ h2 {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-
-/* ✅ Fixed extra left padding on h2 */
 h2:after {
     display: block;
     height: 2px;
@@ -163,13 +161,13 @@ h2:after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px; /* ✅ Added gap for spacing */
+    gap: 20px;
 }
 
 .section-features .col {
-    flex: 1 1 calc(25% - 20px); /* ✅ Ensures four equal columns */
+    flex: 1 1 calc(25% - 20px);
     text-align: center;
-    min-width: 250px; /* ✅ Prevents collapsing on small screens */
+    min-width: 250px;
 }
 
 .box {
@@ -198,7 +196,7 @@ h3 {
 .meals-showcase {
     list-style: none;
     width: 100%;
-    overflow: hidden; /* ✅ Ensures alignment of floats */
+    overflow: hidden;
 }
 
 .meals-showcase li {
@@ -274,7 +272,7 @@ h3 {
 .btn-app img {
     height: 50px;
     width: auto;
-    border-radius: 10%;
+    border-radius: 15%;
     margin-right: 10px;
 }
 .cont{
@@ -348,7 +346,6 @@ a:active{
     flex-wrap: nowrap;
     gap: 20px;
 }
-/* ✅ Fix for city section alignment and equal image size */
 .section-cities .row:last-child {
     display: flex;
     justify-content: space-between;
@@ -364,8 +361,8 @@ a:active{
 
 .section-cities .box img {
     width: 100%;
-    height: 220px; /* ✅ Keeps all images uniform height */
-    object-fit: cover; /* ✅ Crops extra part neatly if size differs */
+    height: 220px;
+    object-fit: cover;
     border-radius: 10px;
 }
 .section-plans{
@@ -434,7 +431,6 @@ textarea{
 textarea{
     height: 100%;
 }
-/* Center the whole form area */
 .contact-form {
     width: 60%;
     margin: 0 auto;
@@ -443,21 +439,15 @@ textarea{
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-
-/* Make each row look clean */
 .contact-form .row {
     margin-bottom: 25px;
 }
-
-/* Make labels look aligned */
 .contact-form label {
     font-size: 90%;
     display: block;
     margin-bottom: 8px;
     font-weight: 400;
 }
-
-/* Improve input fields */
 .contact-form input[type=text],
 .contact-form input[type=email],
 .contact-form select,
@@ -468,39 +458,27 @@ textarea{
     border: 1px solid #ccc;
     font-size: 90%;
 }
-
-/* Submit button centered */
 .contact-form input[type=submit] {
     display: block;
     margin: 20px auto 0 auto;
     cursor: pointer;
 }
-/* Put label and input on the same line */
-/* Only make the direct form rows flex */
 .contact-form form > .row {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-
-/* The inner .row that holds the label */
 .contact-form form > .row > .row {
     flex: 0 0 150px;
     margin-bottom: 0;
 }
-
-/* Label styling */
 .contact-form label {
     font-size: 90%;
     display: block;
 }
-
-/* The div that holds input/select/textarea */
 .contact-form form > .row > div:last-child {
     flex: 1;
 }
-
-/* Inputs and textarea fill remaining space */
 .contact-form input[type=text],
 .contact-form input[type=email],
 .contact-form select,
@@ -510,21 +488,14 @@ textarea{
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-
-/* Submit button alignment */
 .contact-form input[type=submit] {
     width: 200px;
     margin-left: 150px;
 }
-
-
-/* Make label smaller and fixed width */
 .contact-form label {
     width: 150px;
     font-size: 90%;
 }
-
-/* Make input take rest of the space */
 .contact-form input[type=text],
 .contact-form input[type=email],
 .contact-form select,
@@ -591,40 +562,30 @@ footer p{
 .social-links li a:visited{
     font-size: 160%;
 }
-/* Move social icons to the right side */
 .social-links {
     float: right;
 }
-/* Footer navigation on the LEFT */
 .footer-nav {
     float: left;
 }
-
-/* Social links on the RIGHT */
 .social-links {
     float: right;
 }
-/* Highlight invalid fields */
 .contact-form input:invalid,
 .contact-form textarea:invalid,
 .contact-form select:invalid {
     border: 1px solid #e67e22;
 }
-
-/* Highlight valid fields */
 .contact-form input:valid,
 .contact-form textarea:valid,
 .contact-form select:valid {
     border: 1px solid #28a745;
 }
-/* Footer layout improvement */
 footer .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/* Better spacing between footer columns */
 .footer-nav,
 .social-links {
     display: flex;
